@@ -1,0 +1,149 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+header {
+  height: 50px;
+  background-color: #03A9F4;
+  color: #FFFFFF;
+  padding: 0px 25px;
+}
+
+header h1 {
+  float: left;
+  text-indent: -9999px;
+  background: url("../images/paint2.png") #03A9F4 no-repeat;
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+  background-size: contain;
+
+
+}
+
+header nav {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px 10px;
+  }
+
+nav li:hover {
+  background-color: #455A64;
+}
+
+li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/*HERO*/
+
+
+#hero {
+  background: url("../images/dropcloth.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0px;
+  margin-bottom: 50px;
+}
+
+#hero img {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  border: 4px solid #03A9F4;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 25px;
+  color: #212121;
+}
+
+.button {
+  background-color: #CFD8D7;
+  border: 4px solid #03A9F4;
+  color: #212121;
+  padding: 10px 8px;
+  text-decoration: none;
+}
+
+/*COLUMNS*/
+h3 {
+  font-size: 25px;
+  color: #607D8B;
+}
+
+#pillars {
+  text-align: center;
+}
+
+.column {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.column img {
+  border: 4px solid #03A9F4;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: 25px 0px;
+}
+
+.column {
+  margin-bottom: 40px;
+}
+
+.column p {
+  margin-bottom: 40px;
+}
+
+.button {
+  padding: 5px 10px;
+  background-color: #455A64;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  padding: 5px 10px;
+  background-color: #607D8B;
+}
+/*FOOTER*/
+
+footer {
+  background-color: #03A9F4;
+  color: #FFFFFF;
+  margin-top: 40px 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+footer ul {
+  margin: 30px 40px;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0px 25px;
+}
+
+.link {
+  color: #455A64;
+}
+
+.link:hover {
+  color: #607D8B;
+}
